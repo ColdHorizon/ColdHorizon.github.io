@@ -37,12 +37,13 @@ footer{
     background-color: #626AFC;
     grid-area: footer;
 }
-div > a{
+a{
     text-shadow: 2px 1px #000000;
     text-decoration: none;
     color: #FCF462;
 }
-main > a{
+.gameLink{
+    text-shadow: none;
     color: #0090FF;
     text-decoration: none;
 }
