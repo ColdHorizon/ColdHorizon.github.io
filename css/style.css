@@ -1,7 +1,3 @@
-html{
-
-
-}
 body{
     display: grid;
     grid-template-areas: 
@@ -10,27 +6,42 @@ body{
     "footer footer";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 8fr 1fr;
-    margin: 0px;
+    margin: 0;
     height: 100vh;
+    color: #FFFFFF;
+    text-shadow: 3px 2px #000000;
+    font-family:OCR A Std, monospace;
+    text-align: center;
+    
     
 
 }
+header,main,footer{
+    border:5px,solid,black;
+}
 header{
+    
     background-color: #62B7FC;
     grid-area: header;
+    
 }
 main{
+    color: #000000;
+    text-shadow: 3px 2px #FFFFFF;
     background-color: #FFFFFF;
     grid-area: main;
+    border-top: 0;
+    border-bottom: 0;
 }
 footer{
     background-color: #626AFC;
     grid-area: footer;
 }
-h1,p{
-    margin: 0;
-    text-align: center;
+a{
+    text-shadow: 2px 1px #000000;
+    text-decoration: none;
+    color: #FCF462;
 }
-p{
+div{
     text-align: right;
 }
