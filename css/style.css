@@ -42,7 +42,7 @@ a{
     text-decoration: none;
     color: #FCF462;
 }
-.gameLink{
+a.gameLink{
     text-shadow: none;
     color: #0090FF;
     text-decoration: none;
