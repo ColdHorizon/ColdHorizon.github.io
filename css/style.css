@@ -1,9 +1,36 @@
-header{
-    background-color: #62B7FC;
+html{
+
+
 }
 body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    margin: 0px;
+    height: 100vh;
+    
+
+}
+header{
+    background-color: #62B7FC;
+    grid-area: header;
+}
+main{
     background-color: #FFFFFF;
+    grid-area: main;
 }
 footer{
     background-color: #626AFC;
+    grid-area: footer;
+}
+h1,p{
+    margin: 0;
+    text-align: center;
+}
+p{
+    text-align: right;
 }
