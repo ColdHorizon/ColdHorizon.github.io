@@ -27,7 +27,7 @@ header{
 }
 main{
     color: #000000;
-    text-shadow: 3px 2px #FFFFFF;
+    text-shadow: none;
     background-color: #FFFFFF;
     grid-area: main;
     border-top: 0;
@@ -37,10 +37,14 @@ footer{
     background-color: #626AFC;
     grid-area: footer;
 }
-a{
+div > a{
     text-shadow: 2px 1px #000000;
     text-decoration: none;
     color: #FCF462;
+}
+main > a{
+    color: #0090FF;
+    text-decoration: none;
 }
 div{
     text-align: right;
