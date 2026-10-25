@@ -48,6 +48,9 @@ a.gameLink{
     color: #0090FF;
     text-decoration: none;
 }
+a:hover{
+    font-size: 20px;
+}
 footer div{
     text-align: right;
 }
@@ -57,9 +60,9 @@ main div{
     align-items: center;
 }
 img{
-    border: 4px,solid,#8f8f8f;
+    border: 4px,solid,#a4a4a4;
     border-radius: 5px;
-    box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #434343;
     margin: 10px;
     width: 200px;
 }
