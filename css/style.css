@@ -21,8 +21,10 @@ header,main,footer{
     border:5px,solid,black;
 }
 header{
-    
-    background-color: #62B7FC;
+    background:linear-gradient(to right,
+    oklab(79.728% -0.06917 -0.09865),
+    oklab(84.602% -0.03937 -0.06955));
+    /*background-color: #62B7FC;*/
     grid-area: header;
     
 }
@@ -35,7 +37,10 @@ main{
     border-bottom: 0;
 }
 footer{
-    background-color: #626AFC;
+    background:linear-gradient(to left,
+    oklab(60.480999999999995% -0.02921 -0.21229),
+    oklab(67.294% -0.02693 -0.16595));
+    /*background-color: #626AFC;*/
     grid-area: footer;
 }
 a{
@@ -78,4 +83,7 @@ img{
     box-shadow: 2px 2px #434343;
     margin: 10px;
     width: 200px;
+}
+img:hover{
+    width:15%;
 }
