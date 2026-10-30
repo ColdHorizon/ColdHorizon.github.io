@@ -7,7 +7,7 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 8fr 1fr;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     color: #FFFFFF;
     text-shadow: 3px 2px #000000;
     font-family:OCR A Std, monospace;
@@ -73,6 +73,17 @@ main div{
     border-right: 0;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 100px;
+}
+li:hover{
+    color: #0000FF;
 }
 #firstCategory{
     border-top: 0;
