@@ -98,3 +98,10 @@ img{
 img:hover{
     width:240px;
 }
+h2{
+    background-color: #3aa6ff;
+    color: #FFFFFF;
+    border: 6px solid#0090FF;
+    border-radius: 15px;
+    text-shadow: 2px 2px #000000;
+}
