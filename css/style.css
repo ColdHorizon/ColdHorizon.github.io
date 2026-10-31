@@ -24,7 +24,6 @@ header{
     background:linear-gradient(to right,
     oklab(79.728% -0.06917 -0.09865),
     oklab(84.602% -0.03937 -0.06955));
-    /*background-color: #62B7FC;*/
     grid-area: header;
     
 }
@@ -40,7 +39,6 @@ footer{
     background:linear-gradient(to left,
     oklab(60.480999999999995% -0.02921 -0.21229),
     oklab(67.294% -0.02693 -0.16595));
-    /*background-color: #626AFC;*/
     grid-area: footer;
 }
 a{
@@ -49,16 +47,18 @@ a{
     color: #FCF462;
 }
 a.gameLink{
-    text-shadow: none;
-    color: #0090FF;
+    margin:2px;
+    padding: 2px;
+    background-color: #6e73ff;
+    border: 6px solid #3333ff;
+    border-radius: 10px;
+    color: #ffffff;
     text-decoration: none;
+    box-shadow: 2px 2px black;
 }
 a:hover{
     font-size: 20px;
     
-}
-main div a:hover{
-    border-bottom:3px solid #0000FF;
 }
 footer div{
     text-align: right;
@@ -83,13 +83,16 @@ li{
     margin-left: 100px;
 }
 li:hover{
-    color: #0000FF;
+    color:#ffbb00;
 }
 #firstCategory{
     border-top: 0;
 }
 img{
-    border: 4px,solid,#a4a4a4;
+    background:linear-gradient(to right,
+    oklab(55.208% 0 -0.00006),
+    oklab(75.083% 0 -0.00009)) border-box;
+    border: 4px,solid,transparent;
     border-radius: 5px;
     box-shadow: 2px 2px #434343;
     margin: 10px;
@@ -105,7 +108,7 @@ h2{
     border-radius: 15px;
     text-shadow: 2px 2px #000000;
 }
-h3:not(#description){
+h3:not(.description){
     background-color: #ffea31;
     border: 6px solid#ffd000;
     border-radius: 15px;
